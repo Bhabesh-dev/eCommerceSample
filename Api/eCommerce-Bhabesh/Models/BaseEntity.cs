@@ -29,6 +29,6 @@ namespace eCommerce_Bhabesh.Models
 
         public DateTime? UpdatedDate { get; set; }
 
-        public string UpdatedBY { get; set; }
+        public string UpdatedBY { get; set; } 
     }
 }

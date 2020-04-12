@@ -9043,11 +9043,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "G:\\Bhabesh-Wrospace\\Git-Hub\\AngualrDirective\\Api\\eCommerce-Bhabesh\\eCommerce-Bhabesh.csproj",
+      "projectUniqueName": "G:\\Bhabesh-Wrospace\\Git-Hub\\AngualrDirective\\eCommerceSample\\Api\\eCommerce-Bhabesh\\eCommerce-Bhabesh.csproj",
       "projectName": "eCommerce-Bhabesh",
-      "projectPath": "G:\\Bhabesh-Wrospace\\Git-Hub\\AngualrDirective\\Api\\eCommerce-Bhabesh\\eCommerce-Bhabesh.csproj",
+      "projectPath": "G:\\Bhabesh-Wrospace\\Git-Hub\\AngualrDirective\\eCommerceSample\\Api\\eCommerce-Bhabesh\\eCommerce-Bhabesh.csproj",
       "packagesPath": "C:\\Users\\Bhabesh\\.nuget\\packages\\",
-      "outputPath": "G:\\Bhabesh-Wrospace\\Git-Hub\\AngualrDirective\\Api\\eCommerce-Bhabesh\\obj\\",
+      "outputPath": "G:\\Bhabesh-Wrospace\\Git-Hub\\AngualrDirective\\eCommerceSample\\Api\\eCommerce-Bhabesh\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Bhabesh\\AppData\\Roaming\\NuGet\\NuGet.Config",

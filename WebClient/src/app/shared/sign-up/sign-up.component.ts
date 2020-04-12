@@ -30,5 +30,8 @@ export class SignUpComponent implements OnInit {
 
   @ViewChild("template") modal: TemplateRef<any>;
 
-  onSubmit() {}
+  onSubmit() {
+    let userDetails = this.insertedfrom.value;
+    // this.service.register()
+  }
 }
