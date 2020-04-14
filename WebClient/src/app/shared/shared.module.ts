@@ -7,6 +7,9 @@ import { FooterComponent } from "./footer/footer.component";
 import { LeftNavigationComponent } from "./left-navigation/left-navigation.component";
 import { LoginComponent } from "./login/login.component";
 import { SignUpComponent } from "./sign-up/sign-up.component";
+import { ReactiveFormsModule, FormsModule } from "@angular/forms";
+import { HttpClientModule, HTTP_INTERCEPTORS } from "@angular/common/http";
+import { ModalModule } from "ngx-bootstrap/modal";
 
 @NgModule({
   declarations: [
@@ -16,12 +19,20 @@ import { SignUpComponent } from "./sign-up/sign-up.component";
     LoginComponent,
     SignUpComponent,
   ],
-  imports: [CommonModule, SharedRoutingModule],
+  imports: [
+    CommonModule,
+    SharedRoutingModule,
+    ReactiveFormsModule,
+    FormsModule,
+    HttpClientModule,
+    ModalModule.forRoot(),
+  ],
   exports: [
     HeaderComponent,
     FooterComponent,
     LeftNavigationComponent,
     SignUpComponent,
   ],
+  providers: [],
 })
 export class SharedModule {}

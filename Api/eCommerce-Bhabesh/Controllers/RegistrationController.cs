@@ -11,10 +11,19 @@ using Microsoft.AspNetCore.Mvc;
 namespace eCommerce_Bhabesh.Controllers
 {
     [Route("api/[controller]")]
+    [ApiController]
     public class RegistrationController : Controller
     {
         private UserManager<ApplicationUser> _userManager;
         private SignInManager<ApplicationUser> _signInManager;
+
+        public RegistrationController(UserManager<ApplicationUser> userManager , SignInManager<ApplicationUser> signInManager)
+
+        {
+            _userManager = userManager;
+            _signInManager = signInManager;
+
+        }
         // GET: api/<controller>
         [HttpGet]
         public IEnumerable<string> Get()
@@ -51,7 +60,7 @@ namespace eCommerce_Bhabesh.Controllers
 
         [HttpPost]
         [Route("Register")]
-        public async Task<object> RegisterUser(User user)
+        public async Task<object> RegisterUser(ApplicationUserModel user)
         {
             var appUser = new ApplicationUser()
             {
